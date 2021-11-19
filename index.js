@@ -7,7 +7,7 @@
 const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
 
-const url = "mongodb+srv://iBigas:Bigas.31415@cluster0.jwpp9.mongodb.net/Ocean_Nuvem_Heros?retryWrites=true&w=majority";
+const url = "mongodb+srv://iBigas:Bigas.31415@cluster0.jwpp9.mongodb.net/ocean_nuvem_backend_19_11_2021?retryWrites=true&w=majority";
 const dbName = "ocean_nuvem_backend_19_11_2021";
 
 async function main() {
